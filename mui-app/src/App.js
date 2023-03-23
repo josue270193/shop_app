@@ -1,9 +1,19 @@
-import React, { Component } from 'react'
-import App from 'base-shell/lib'
-import _config from './config'
+import React from 'react'
+import AppAppBar from './views/AppAppBar';
+import ProductHero from './views/ProductHero';
+import ProductCategories from './views/ProductCategories';
+import AppFooter from './views/AppFooter';
+import withRoot from './components/withRoot';
 
-export default class ShopApp extends Component {
-  render() {
-    return <App config={_config} />
-  }
+function Index() {
+  return (
+    <React.Fragment>
+      <AppAppBar/>
+      <ProductHero/>
+      <ProductCategories />
+      <AppFooter/>
+    </React.Fragment>
+  );
 }
+
+export default withRoot(Index);

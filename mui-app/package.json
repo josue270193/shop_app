@@ -9,6 +9,7 @@
     "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.14",
     "base-shell": "^2.5.10",
+    "clsx": "^1.2.1",
     "intl": "^1.2.5",
     "jss-rtl": "^0.3.0",
     "lp-react-virtualized-auto-sizer-react-18": "^1.0.7",
