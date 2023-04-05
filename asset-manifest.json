@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.4db4ab21.js",
-    "index.html": "/index.html",
-    "main.4db4ab21.js.map": "/static/js/main.4db4ab21.js.map"
+    "main.js": "https://josue270193.github.io/shop_app/static/js/main.4db4ab21.js",
+    "index.html": "https://josue270193.github.io/shop_app/index.html",
+    "main.4db4ab21.js.map": "https://josue270193.github.io/shop_app/static/js/main.4db4ab21.js.map"
   },
   "entrypoints": [
     "static/js/main.4db4ab21.js"
